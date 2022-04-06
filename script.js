@@ -6,11 +6,6 @@ var character = {
   specCharacter: ["!","@","#","$","%","^","&","*"],
 };
 
-
-
-
-
-
 // var ifTrue = [true, false, true, true]
 
 function generatePassword() {
@@ -67,9 +62,6 @@ for (var i = 0; i < passwordLength; i++) {
 pwd += ifTrue[Math.floor(Math.random() * ifTrue.length)];
   
 };
-
-
-
 
 // Return the final password generated
 console.log(`pwd: ${pwd}`);
